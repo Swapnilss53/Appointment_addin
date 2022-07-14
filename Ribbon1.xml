@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="TabAddIns" label="Meridian Meeting">
+		  <group id="ContentGroup" label="Content">
+			  <button id="textButton" label="Meridian Meeting"
+				   screentip="Text" onAction="OnTextButton"
+				   supertip="Inserts text at the cursor location."
+					  image="C:\Users\sss53\Desktop\Other\INTERNSHIPS\infosys_internshp\visual studio projects"/>
+		  </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
